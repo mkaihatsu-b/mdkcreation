@@ -57,7 +57,7 @@ nav {
 .hero-inner { position:relative; z-index:1; text-align:center; max-width:800px; }
 .hero-label { display:inline-block; border:2px solid rgba(255,255,255,.35); color:rgba(255,255,255,.7); font-size:.72rem; font-weight:700; letter-spacing:.25em; text-transform:uppercase; padding:5px 18px; margin-bottom:28px; }
 .hero-catch-sub { font-family:'Noto Serif JP',serif; font-size:clamp(1.1rem,2.5vw,1.6rem); color:rgba(255,255,255,.75); font-weight:400; margin-bottom:14px; letter-spacing:.1em; animation:fadeUp .7s ease both; }
-.hero-catch-main { font-family:'Noto Serif JP',serif; font-size:clamp(3.5rem,10vw,7.5rem); color:var(--white); font-weight:900; line-height:1.05; text-shadow:0 4px 24px rgba(0,0,0,.5),4px 4px 0 rgba(0,0,0,.3); margin-bottom:28px; animation:fadeUp .7s .1s ease both; }
+.hero-catch-main { font-family:'Noto Serif JP',serif; font-size:clamp(2.5rem,5.5vw,5.5rem); color:var(--white); font-weight:900; line-height:1.05; text-shadow:0 4px 24px rgba(0,0,0,.5),4px 4px 0 rgba(0,0,0,.3); margin-bottom:28px; animation:fadeUp .7s .1s ease both; white-space:nowrap; }
 .hero-catch-main .quot { color:#FFD580; }
 @keyframes fadeUp { from{opacity:0;transform:translateY(30px);} to{opacity:1;transform:translateY(0);} }
 .hero-tagline { font-size:1.05rem; color:rgba(255,255,255,.8); line-height:1.9; margin-bottom:12px; animation:fadeUp .7s .2s ease both; }
@@ -567,7 +567,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.35); padding:56px 40px 3
         <button type="button">相談する →</button>
       </div>
       <p class="cta-sm">※ 送信後、担当者より24時間以内にご返信いたします</p>
-      <p class="cta-direct">直接メール：<a href="mailto:infor@mkdc.co.jp">infor@mkdc.co.jp</a></p>
+      <p class="cta-direct">直接メール：<a href="/cdn-cgi/l/email-protection#4f262129203d0f22242b2c612c2061253f"><span class="__cf_email__" data-cfemail="553c3b333a2715383e31367b363a7b3f25">[email&#160;protected]</span></a></p>
     </div>
   </div>
 </section>
@@ -596,17 +596,7 @@ footer { background:var(--ink); color:rgba(255,255,255,.35); padding:56px 40px 3
   <div class="footer-copy">© MKDクリエーション株式会社 All Rights Reserved.</div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const reveals = document.querySelectorAll('.reveal');
 const obs = new IntersectionObserver((entries) => {
-  entries.forEach((e, i) => {
-    if (e.isIntersecting) {
-      setTimeout(() => e.target.classList.add('visible'), i * 70);
-      obs.unobserve(e.target);
-    }
-  });
-}, { threshold: 0.08 });
-reveals.forEach(el => obs.observe(el));
-</script>
-</body>
-</html>
+  entries.forEach((e, 
